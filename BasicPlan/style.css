@@ -1,0 +1,45 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+   
+}
+
+ul{
+    border: solid 6px blue;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 100%;
+    font-weight: 700;
+}
+li{
+    font-size: 3vw;
+    padding: 4vh;
+}
+.heading{
+    color: blue;
+}
+button{
+    background-color: blue;
+    font-size: 100%;
+    color: white;
+    padding: 1.5vw;
+    border: none;
+}
+
+
