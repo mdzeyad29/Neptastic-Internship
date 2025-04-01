@@ -1,0 +1,42 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: blue;
+    font-size: 2vw;
+    font-weight: 600;
+}
+button{
+    background-color: crimson;
+    font-size: 100%;
+    color: white;
+    padding: 1.5vw;
+    border: none;
+}
+ul{
+    border: solid 6px blue;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 100%;
+    font-weight: 700;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
