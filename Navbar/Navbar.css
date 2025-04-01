@@ -1,0 +1,18 @@
+Nav{
+    background-color: blue;
+}
+.Navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+ul{
+    list-style-type: None;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    
+}
