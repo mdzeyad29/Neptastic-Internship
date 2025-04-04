@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Nav Section-->
+    <nav>
+        <h2>Logo</h2>
+        <!-- Hamburger Icon -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <!-- Nav Links -->
+        <div class="nav-links">
+            <a href="About.html">About</a>
+            <a href="PortFolio.html">Work</a>
+            <a href="#last">Contact</a>
+        </div>
+    </nav>
+    <!--About Section-->
+    <div class="About">
+        <div class="About-sec">
+            <!--left-->
+            <div class="About-left">
+                <img src="./image/Image (6).png">
+                <span>Pablo Designero</span>
+                <p>Designer & Unicorn <br> Trainer</p>
+            </div>
+            <!--right-->
+            <div class="About-right">
+                <span class="right-heading">Bio:</span>
+                <span class="right-section">Father of 3 humans, 5 unicorns & 2 dogs, I design since I can remember it. I
+                    often get asked where I get my inspiration from: in everyday’s lil’ details. And sometimes in
+                    leftover food I find in my beard.</span>
+            </div>
+        </div>
+    </div>
+    <div class="text-section">
+        <div class="text">
+               <h2>When I was 5, I got adbucted by a unicorn family. When they returned me to earth, I joined a designer
+                school. But, fo’ real, what I learned with my kidnaptive family really gave an edge to my creative
+                language.</h2>
+                <div class="text-down">
+                    <p class="first">Being a human is way too complicated. Time to be a unicorn</p>
+                    <p class="second">Try it and you’ll see. Then your Figma files are just gonna fly in color, glitter,
+                        interactions and autolayout.</p>
+                    <p class="first">Also, grow a beard. Check my bio if that is not clear.</p>
+                    <p class="second">Available for projects, from Monday to Tuesday, mainy between 14 and 16. (Unless there
+                        is a unicorn race on TV - DUH -in that case, come back another day).<br>
+                        Projects include, RocknRoll covers, furniture refurbishing, Unicorn potty training and more.</p>
+                    </div>
+        </div> 
+    </div>
+    <!--Footer-->
+    <div class="footer-section" id="last">
+        <!--left-->
+        <div class="ft-left">
+            <h2>Let’s work together</h2>
+            <p>This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com This is a
+                template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+            <div>
+                <span ><img src="./image/discord.png" alt=""></span>
+                <span ><img src="./image/facebook.png" alt=""></span>
+                <span ><img src="./image/dribbble (1).png" alt=""></span>
+                <span ><img src="./image/nstagram.png" alt=""></span>
+                <span ><img src="./image/Behance.png" alt=""></span>
+            </div>
+        </div>
+        <!--right-->
+        <div class="ft-right">
+            <form>
+                <input placeholder="Name" value="Name" type="name">
+                <input placeholder="Email" value="Email" type="email">
+                <textarea placeholder="Type your message here" rows="4" cols="8"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
